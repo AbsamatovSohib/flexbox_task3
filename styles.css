@@ -1,5 +1,4 @@
 
-
         *{
             margin: 0;
             padding: 0;
@@ -9,68 +8,60 @@
 
         body{
             background: #f2f2f2;
-            padding: 40px;
         }
 
-        h1{
-            text-align: center;
-            margin-bottom: 40px;
-        }
+        /* NAVBAR */
 
-        /* PRODUCTS */
-
-        .products{
+        .navbar{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+
+            background: #222;
+            padding: 20px;
             gap: 20px;
         }
 
-        /* CARD */
+        /* LOGO */
 
-        .card{
-            width: 300px;
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-            display: flex;
-            flex-direction: column;
-        }
-
-        .card img{
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-
-        .content{
-            padding: 20px;
-
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .price{
-            color: crimson;
-            font-size: 22px;
+        .logo{
+            color: white;
+            font-size: 28px;
             font-weight: bold;
         }
 
-        button{
-            padding: 10px;
+        /* MENU */
+
+        .menu{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .menu a{
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu a:hover{
+            color: orange;
+        }
+
+        /* BUTTON */
+
+        .btn button{
+            padding: 10px 20px;
             border: none;
-            background: royalblue;
+            background: orange;
             color: white;
             border-radius: 6px;
             cursor: pointer;
+            font-size: 16px;
         }
 
-        button:hover{
-            background: darkblue;
+        .btn button:hover{
+            background: darkorange;
         }
 
-    
